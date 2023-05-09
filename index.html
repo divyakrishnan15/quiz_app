@@ -14,8 +14,8 @@
 
     <div class="quiz-main">
         <div class="dashboard">
-            <p class="score-label">High Score : <div class="scores"></div></p>
-            <p class="timer-label">Time Left: <span class="timer">10</span></p>
+            <button href="" class="score-label">High Score : <div class="scores"></div></button>
+            <p class="timer-label">Time Left: <span class="timer"></span></p>
         </div>
 
         <div class="quiz-submain center">
@@ -26,8 +26,33 @@
                 <p class="label-ans3">Answer 3 : <button class="ans3"></button></p>
                 <p class="label-ans4">Answer 4 : <button class="ans4"></button></p>
 
-                <button class="nextbtn">Next</button>
+                <!-- <hr/> -->
+                <div class="result"></div>
+                <!-- <button class="nextbtn">Next</button> -->
+            
+        </div>
+
+        <div class="start-submain center">
+            <h2>Coding Quiz Challenge</h2>
+            <div> Try to answer the following code-related questions within the time</div>
+            <div>limit. Keep in mind that incorrect answers will penalize your score/time</div>
+            <div>by 10 seconds</div>
+            <br>
             <button class="startbtn">Start Quiz</button>
+
+        </div>
+
+        <div class="alldone">
+            <h2>All Done!</h2>
+            <p>Your Final Score is <div class="alldone-score"></div></p>
+            <p>Enter Initials : <input type="text" id="initials" class="alldone-initials"/><button class="alldone-submit" onclick="InitialHighScores()">Submit</button></p>
+        </div>
+
+        <div class="highscores">
+            <h2>HighScores</h2>
+            <ul class="highscores-ultag"></ul>
+            <button>Go Back</button>
+            <button>Clear HighScores</button>
         </div>
     
     </div>
