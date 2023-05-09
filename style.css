@@ -1,0 +1,38 @@
+body{
+    height:100vh;
+    width:100%;
+    margin:-70px 0;
+}
+
+.center{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quiz-main{
+    height:500px;
+    width:600px;
+    border:1px solid black;
+    
+}
+
+
+.right-timer{
+    float:right;
+    margin:-40px 80px;
+    color:red;
+}
+
+.left-scores{
+    padding:25px;
+    width:200px;
+    color:red;
+}
+
+.quiz-submain{
+
+}
+

@@ -7,20 +7,29 @@
     <link rel="stylesheet" href="./style.css">
     <title>Quiz App</title>
 </head>
-<body>
-    <h1>Quiz App</h1>
+<body class="center">
+    <header class="center">
+        <h1>Quiz App</h1>
+    </header>  
 
-    <div>
-        <div class="left">High Scores</div>
-        <div class="right-timer">Time : </div>
-    </div>
+    <div class="quiz-main">
+        <div class="dashboard">
+            <div class="left-scores">High Scores:</div>
+            <div class="right-timer">Time Left : </div>
+        </div>
 
-    <div>
-        
-        <button>Start Quiz</button>
-    </div>
+        <div class="quiz-submain center">
+            <div>What is event?</div>
+            <button>Answer1 : </button>
+            <button>Answer2 : </button>
+            <button>Answer3 : </button>
+            <button>Answer4 : </button>
+
+            <button onclick="startgame(data)">Start Quiz</button>
+        </div>
     
-
+    </div>
 </body>
-    <script src="./script.js" onclick="startgame()"></script>
+<script type="text/javascript" src="QA.js"></script>
+    <script src="./script.js" ></script>
 </html>
