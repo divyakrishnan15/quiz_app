@@ -1,32 +1,35 @@
 const data = [
     {
-    "id":"Question1",
-    "Question":"what is even bubbling ?",
-    "Answer":{
-            "Answer1":"bub1",
-            "Answer2":"bub2",
-            "Answer3":"bub3",
-            "Answer4":"bub4"
+    "id":1,
+    "question":"what is even bubbling ?",
+    "correctAns":"Bub2",
+    "answer":{
+            "answer1":"bub1",
+            "answer2":"bub2",
+            "answer3":"bub3",
+            "answer4":"bub4"
             }
     },
     {
-        "id":"Question2",
-        "Question":"what is windows object ?",
-        "Answer":{
-                "Answer1":"winob1",
-                "Answer2":"winob2",
-                "Answer3":"winob3",
-                "Answer4":"winob4"
+        "id":2,
+        "question":"what is windows object ?",
+        "correctAns":"Bub3",
+        "answer":{
+                "answer1":"winob1",
+                "answer2":"winob2",
+                "answer3":"winob3",
+                "answer4":"winob4"
                 }
     },
     {
-        "id":"Question3",
-        "Question":"what is LocalStorage",
-        "Answer":{
-                "Answer1":"LS1",
-                "Answer2":"LS2",
-                "Answer3":"LS3",
-                "Answer4":"LS4"
+        "id":3,
+        "question":"what is LocalStorage",
+        "correctAns":"Bub3",
+        "answer":{
+                "answer1":"LS1",
+                "answer2":"LS2",
+                "answer3":"LS3",
+                "answer4":"LS4"
                 }
     }
 ]
