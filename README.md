@@ -41,3 +41,20 @@ The completed application following criteria:
 
 ## Mock demo:
 
+### Landing Page:
+![1 start](https://github.com/divyakrishnan15/quiz_app/assets/40469923/b5f6de24-67d0-478d-8083-dc68fb684622)
+
+### Correct Answer:
+![correct ans](https://github.com/divyakrishnan15/quiz_app/assets/40469923/daba30c3-5211-4452-881d-669193b27696)
+
+### Wrong Answer:
+![wrong ans](https://github.com/divyakrishnan15/quiz_app/assets/40469923/10682428-1558-4c4d-bab8-fe1f0f7e1c67)
+
+
+### Game Over:
+![Gameover](https://github.com/divyakrishnan15/quiz_app/assets/40469923/b1570741-879d-449d-b5ea-881e9a5f80d7)
+
+### Local Storage:
+![local storage](https://github.com/divyakrishnan15/quiz_app/assets/40469923/2c6951a9-51df-4052-ab61-cdda5b3376b5)
+
+### HighScore link:
