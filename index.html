@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,30 @@
     <link rel="stylesheet" href="./style.css">
     <title>Quiz App</title>
 </head>
+
 <body class="center">
+    <!-- <img src="./Assets/corner.png" alt="corner" class="corner-img"/> -->
     <header class="center">
         <h1>Quiz App</h1>
-    </header>  
+    </header>
 
     <div class="quiz-main">
         <div class="dashboard">
-            <button href="" class="score-label">High Score : <div class="scores"></div></button>
+            <button href="" class="score-label">View HighScore : <div class="scores"></div></button>
             <p class="timer-label">Time Left: <span class="timer"></span></p>
         </div>
 
         <div class="quiz-submain center">
-            <p class="label-ques">Question : <div class="question"></div></p>
+            <p class="label-ques">Question : <span class="q_num"></span><span class="question"></span></p>
+            <div class="ans-btn-wrapper center">
+                <button class="ans1 ans-btn" button-num="1"></button>
+                <button class="ans3 ans-btn" button-num="2"></button>
+                <button class="ans4 ans-btn" button-num="3"></button>
+                <button class="ans2 ans-btn" button-num="4"></button>
+            </div>
+            <hr />
+            <div class="result"></div>
 
-                <p class="label-ans1">Answer 1 : <button class="ans1"></button></p>
-                <p class="label-ans2">Answer 2 : <button class="ans2"></button></p>
-                <p class="label-ans3">Answer 3 : <button class="ans3"></button></p>
-                <p class="label-ans4">Answer 4 : <button class="ans4"></button></p>
-
-                <!-- <hr/> -->
-                <div class="result"></div>
-                <!-- <button class="nextbtn">Next</button> -->
-            
         </div>
 
         <div class="start-submain center">
@@ -42,21 +44,31 @@
 
         </div>
 
-        <div class="alldone">
+        <div class="alldone center">
             <h2>All Done!</h2>
-            <p>Your Final Score is <div class="alldone-score"></div></p>
-            <p>Enter Initials : <input type="text" id="initials" class="alldone-initials"/><button class="alldone-submit" onclick="InitialHighScores()">Submit</button></p>
+            <p>Your Final Score is
+            <div class="alldone-score"></div>
+            </p>
+            <p>Enter Initials : <input type="text" id="initials" class="alldone-initials" />
+                <!-- <button class="alldone-submit" onclick="InitialHighScores()">Submit</button></p> -->
+                <button class="alldone-submit">Submit</button></p>
         </div>
 
-        <div class="highscores">
+        <div class="highscores center">
             <h2>HighScores</h2>
             <ul class="highscores-ultag"></ul>
-            <button>Go Back</button>
-            <button>Clear HighScores</button>
+            <button class="highscores-gobackbtn">Go Back</button>
+            <button class="highscores-clearbtn">Clear HighScores</button>
         </div>
-    
+
+        <div class="gameover center">
+            <!-- <p>Your High Score is : <span class="gameover-score"></span></p> -->
+            <img src="./Assets/giphy.gif" alt="gameover" class="gameover-img" />
+        </div>
+
     </div>
 </body>
 <script type="text/javascript" src="QA.js"></script>
-    <script src="./script.js" ></script>
+<script src="./script.js"></script>
+
 </html>
