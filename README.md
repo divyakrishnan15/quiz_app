@@ -36,6 +36,7 @@ The completed application following criteria:
 
 
 ## Deployed site:
+https://divyakrishnan15.github.io/quiz_app/
 
 
 
