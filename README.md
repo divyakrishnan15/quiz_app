@@ -26,13 +26,13 @@ The completed application following criteria:
 
 * When a user clicks a right choice of answer, the background color will change to green and the score increases to 1.
 
-* When a user clicks a right choice of answer, the background color will change to green and the score doesnt increase/decrease as there is no negative marking.
+* When a user clicks a wrong choice of answer, the background color will change to red and the score doesnt increase/decrease but the timer will reduce to 10 seconds.
 
-* When a user wins or loses a game, a message should appear and the timer should stop. 
+* When a user finishes all the questions, a message should apper to enter the initials and save the score in local storage. 
 
 * When a user clicks the start button, the timer should reset. 
 
-* When a user refreshes or returns to the brower page, the win and loss counts should persist.
+* When a user refreshes or returns to the brower page, the score should persist.
 
 
 ## Deployed site:
