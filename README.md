@@ -59,3 +59,6 @@ https://divyakrishnan15.github.io/quiz_app/
 ![local storage](https://github.com/divyakrishnan15/quiz_app/assets/40469923/2c6951a9-51df-4052-ab61-cdda5b3376b5)
 
 ### HighScore link:
+
+
+© 2023 Divya Krishnan Confidential and Proprietary. All Rights Reserved.
